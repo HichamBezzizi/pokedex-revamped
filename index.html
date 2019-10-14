@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="grid-item header">
+            <div class="title">
+                <h1>PokéDex</h1>
+            </div>
+        </div>
+        <div class="grid-item content">
+            <div>
+                <img id="pokedexImg">
+            </div>
+            <div class="grid-item search">
+                <form>
+                    <input type="text" name="pokemon" placeholder="Name or ID">
+                </form>
+            </div>
+            <div id="pokemon" class="grid-item pokemon">
+                <img id="pokePic">
+                <h3 class="pokeName">Name: </h3>
+                <h3>ID: </h3>
+                <h4>Moves:
+                    <ul class="moves">
+
+                    </ul>
+                </h4>
+                <h4>Type:
+                    <ul class="moves">
+
+                    </ul>
+                </h4>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div>Made By Hicham Bezzizi</div>
+        <div>
+            <a href="https://www.facebook.com/hichambezzizi" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/hicham-bezzizi-7a39a1168/" class="fa fa-linkedin"></a>
+        </div>
+
+    </footer>
+
+    <script src="fetchPokAPI.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
