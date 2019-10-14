@@ -63,7 +63,7 @@ const pokeSearch = async (pokemon) => {
 searchPokemon.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    const pokemon = searchPokemon.pokemon.value.toLowerCase().trim()
+    const pokemon = searchPokemon.pokemon.value.toLowerCase()
     searchPokemon.reset();
 
     allPokemonRequest(pokemon)
